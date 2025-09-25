@@ -64,8 +64,16 @@ body, html, #app {
 .subir{
   background-color: #000000;
   min-height: 15vh;
-  text-align: center;
+  position: relative;
+  
 
+}
+.subir p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
 }
 
 
@@ -98,8 +106,15 @@ body, html, #app {
 .apresentacao{
   background-color: darkgray;
   min-height: 100vh;
+  position: relative;
 }
 .apresentacao img{
   width: 200px;
   border-radius: 60% 0 0 0 ;
+}
+.um{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
 }
