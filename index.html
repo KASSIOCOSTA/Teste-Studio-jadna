@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio- Jadna</title>
+    <link rel="stylesheet" href="css/style.css" media="all">
+</head>
+<body>
+    
+    <div id="app">
+        <canvas id="canvas"></canvas>
+        <div class="hero">
+    <h1>Tubes</h1>
+    <h2>Cursor</h2>
+    <p>WebGPU / WebGL</p>
+        </div>
+    </div>
+    <div class="btn">
+        arraste para cima
+    </div>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugit cum rerum reiciendis minus sint aliquid laboriosam sunt quaerat animi, delectus facilis reprehenderit? Ducimus magni minus dicta voluptate quo incidunt!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eius animi praesentium facilis laboriosam, autem fugiat, molestiae neque, enim esse nam placeat officia nisi non minima modi. Ipsum, natus est!
+        </p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero commodi nulla, sit earum molestiae at? Minima vel accusantium nemo aliquid commodi id dolorum eum! Mollitia amet sint tempora sit unde.</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugit cum rerum reiciendis minus sint aliquid laboriosam sunt quaerat animi, delectus facilis reprehenderit? Ducimus magni minus dicta voluptate quo incidunt!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eius animi praesentium facilis laboriosam, autem fugiat, molestiae neque, enim esse nam placeat officia nisi non minima modi. Ipsum, natus est!
+        </p>
+    </main>
+
+
+    
+
+<script type="module">
+    import TubesCursor from "https://cdn.jsdelivr.net/npm/threejs-components@0.0.19/build/cursors/tubes1.min.js"
+
+const app = TubesCursor(document.getElementById('canvas'), {
+  tubes: {
+    colors: ["#f967fb", "#53bc28", "#6958d5"],
+    lights: {
+      intensity: 200,
+      colors: ["#83f36e", "#fe8a2e", "#ff008a", "#60aed5"]
+    }
+  }
+})
+
+document.body.addEventListener('click', () => {
+  const colors = randomColors(3)
+  const lightsColors = randomColors(4)
+  console.log(colors, lightsColors)
+  app.tubes.setColors(colors)
+  app.tubes.setLightsColors(lightsColors)
+})
+
+function randomColors (count) {
+    return new Array(count)
+        .fill(0)
+        .map(() => "#" + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0'))
+}
+</script>
+    
+</body>
+</html>
