@@ -69,8 +69,8 @@ body, html, #app {
 
 .seta{
   position: absolute;
-  border-top: 4px solid red;
-  border-left: 4px solid rgb(255, 179, 0);
+  border-top: 4px solid rgb(255, 255, 255);
+  border-left: 4px solid rgb(255, 255, 255);
   width: 30px;
   height: 30px;
   left: 50%;
