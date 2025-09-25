@@ -1,3 +1,5 @@
+/* PARTE INICIAL DO SITE*/
+
 body, html, #app {
   margin: 0;
   width: 100%;
@@ -8,6 +10,7 @@ body, html, #app {
 #app {
   height: 85vh;
   font-family: "Montserrat", serif;
+  background-color: #000000;
 }
 
 
@@ -59,7 +62,7 @@ body, html, #app {
 
 
 .subir{
-  background-color: rgb(1, 1, 1);
+  background-color: #000000;
   min-height: 15vh;
   text-align: center;
 
@@ -81,10 +84,18 @@ body, html, #app {
 }
 
 @keyframes subir{
-  0%, 20%, 60%, 100%{
+  0%, 10%, 50%, 90%{
     transform: translate(0) rotate(45deg);
   }
-  40%,80%{
+  30%,70%{
     transform: translateY(-10px) rotate(45deg);
   }
+}
+
+
+/* PARTE APRESENTAÇAO DO SITE*/
+
+.apresentacao{
+  background-color: darkgray;
+  min-height: 100vh;
 }
