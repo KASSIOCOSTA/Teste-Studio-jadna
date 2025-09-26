@@ -167,9 +167,9 @@ z-index: 2;
   background-attachment: fixed;
   background-position: center bottom;
 }
-
 .sobre-mim h2{
-
+  position: absolute;
+  bottom: 0;
 }
 
 .sobre-mim p{
@@ -182,7 +182,8 @@ z-index: 2;
   transform: translate(-50%, -60%);
   padding: 10px;
   outline: 5px solid #aa8633;
-  line-height: 2em;
+  line-height: 1.5em;
   color: #000000;
+  border-radius: 30px;
   
 }
