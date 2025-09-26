@@ -147,14 +147,14 @@ border-radius: 0 80px 0 0;
 z-index: 2;
 
 }
-/*.flor{
+.flor{
   position: absolute;
   top: 150px;
   left:30%;
   transform: rotate(80deg);
   z-index: 3;
 
-}*/
+}
 
 
 
@@ -167,21 +167,22 @@ z-index: 2;
   background-attachment: fixed;
   background-position: center bottom;
 }
-.sobre-mim div{
-  
 
-    
-}
 .sobre-mim h2{
 
 }
 
 .sobre-mim p{
+  background-color: #c4bc9998;
   position: absolute;
   width: 70vw;
-  border: 2px solid red;
-  top: 50%;
+  border: 5px solid #ffffff86;
+  top: 70%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
+  padding: 10px;
+  outline: 5px solid #aa8633;
+  line-height: 2em;
+  color: #000000;
   
 }
