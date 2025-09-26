@@ -160,9 +160,17 @@ z-index: 2;
 
 .sobre-mim{
   min-height: 100vh;
+  position: relative;
   background-image: url('../img/Jadna.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center bottom;
+}
+.sobre-mim h2{
+
+}
+
+.sobre-mim p{
+  
 }
