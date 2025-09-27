@@ -303,6 +303,7 @@ z-index: 2;
 
 .servicos div{
   position: relative;
+  background-image: url('../img/fundo-cimento-queimado.jpg');
   width: 60vw;
   background-color: aqua;
   border: 2px solid black;
@@ -314,7 +315,7 @@ z-index: 2;
 }
 
 .servicos div>p{
-  background-color: aliceblue;
+  color: white;
   width: 40vw;
   margin-left: 10px;
 }
