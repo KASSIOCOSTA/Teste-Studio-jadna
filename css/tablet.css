@@ -1,0 +1,24 @@
+
+.servicos h2{
+padding: 20px;
+}
+
+
+.servicos div>p{
+ 
+  font-size: 1.7em;
+}
+.servicos>p{
+  font-size: 2em;
+}
+
+.servicos div>img{
+  width: 200px;
+  height: 200px;
+ 
+
+}
+.agendarbtn{ 
+ 
+  font-size: 1.5em;
+}
