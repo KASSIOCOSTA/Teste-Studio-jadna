@@ -211,6 +211,7 @@ z-index: 2;
   background-image: url('../img/pano-branco.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
  
 }
 
@@ -239,9 +240,31 @@ z-index: 2;
   width: 100px;
   transform: rotate(45deg);
   bottom: 0;
-  left: 30%;
+  left: 50%;
 }
+.folhainformacoes{
+  width: 80px;
+}
+#folha1{
+  border: 1px solid black;
+  top: 0;
+  left: 80%;
+  transform: rotate(220deg);
+  animation: pulsar 1s infinite linear;
 
+}
+#folha2{
+
+}
+@keyframes pulsar{
+  0%,100%{
+    transform: scale(1) rotate(220deg);
+
+      }
+  50%{
+    transform: scale(1.1) rotate(220deg);
+  }
+}
 
 .procedimentos{
   position: absolute;
