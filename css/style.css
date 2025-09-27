@@ -214,6 +214,35 @@ z-index: 2;
  
 }
 
+
+.informacoes h2{
+  position: absolute;
+  height: 25px;
+  background-image: linear-gradient(to right,#514B3D,#837342,#BF964B);
+  display: inline-block;
+  padding: 15px;
+  font-size: 1.5em;
+  border-radius: 30px;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%);
+   z-index: 2;
+}
+.informacoes h2>span{
+ font-size: 1.5em;
+ font-variant: small-caps;
+}
+.informacoes img{
+  position: absolute;
+}
+.florinformacoes{
+  width: 100px;
+  transform: rotate(45deg);
+  bottom: 0;
+  left: 30%;
+}
+
+
 .procedimentos{
   position: absolute;
   width: 80vw;
@@ -223,6 +252,9 @@ z-index: 2;
 }
 .procedimentos p{
   margin-top: 50px;
-  background-color:  #c4bc9998;
-  padding: 10px;
+  background-image: linear-gradient(to right,#514B3D,#837342,#BF964B);
+  padding: 20px 10px;
+  border-radius: 20px;
+  line-height: 1.3em;
+  z-index: 2;
 }
