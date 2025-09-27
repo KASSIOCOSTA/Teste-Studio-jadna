@@ -172,7 +172,19 @@ z-index: 2;
 }
 .sobre-mim h2{
   position: absolute;
-  bottom: 0;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%);
+  font-family: logo;
+  background-color: darkgrey;
+  padding: 10px;
+  border-radius: 50px 0 20px 0;
+  letter-spacing: 4px;
+  word-spacing: 2px;
+
+}
+.cabecalho{
+  position: relative;
 }
 
 .sobre-mim p{
