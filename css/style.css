@@ -55,7 +55,7 @@ body, html, #app {
 }
 
 #canvas {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
@@ -203,4 +203,26 @@ z-index: 2;
   border-radius: 30px;
  
   
+}
+
+.informacoes{
+  position: relative;
+  min-height: 100vh;
+  background-image: url('../img/pano-branco.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+.procedimentos{
+  position: absolute;
+  width: 80vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.procedimentos p{
+  margin-top: 50px;
+  background-color:  #c4bc9998;
+  padding: 10px;
 }
