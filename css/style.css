@@ -179,8 +179,8 @@ z-index: 2;
   background-color: darkgrey;
   padding: 10px;
   border-radius: 50px 0 20px 0;
-  letter-spacing: 4px;
   word-spacing: 2px;
+  text-align: center;
 
 }
 .cabecalho{
@@ -188,17 +188,19 @@ z-index: 2;
 }
 
 .sobre-mim p{
+  font-family: 'Courier New', Courier, monospace;
   background-color: #c4bc9998;
   position: absolute;
   width: 70vw;
-  border: 5px solid #ffffff86;
+  border: 5px solid #aa8633;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -60%);
   padding: 10px;
-  outline: 5px solid #aa8633;
-  line-height: 1.5em;
+  font-size: 1.2em;
+  line-height: 1em;
   color: #000000;
   border-radius: 30px;
+ 
   
 }
