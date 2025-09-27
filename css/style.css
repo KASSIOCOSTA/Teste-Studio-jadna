@@ -347,6 +347,7 @@ z-index: 2;
   border-radius: 10px;
   text-decoration: none;
   animation: btn-pulsar 3s linear infinite;
+  font-size: 0.8em;
 }
 @keyframes btn-pulsar {
   0%,100%{
