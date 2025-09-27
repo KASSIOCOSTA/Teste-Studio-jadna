@@ -318,6 +318,10 @@ z-index: 2;
   width: 180px;
   margin-left: 10px;
 }
+.servicos>p{
+  margin-bottom: 100px;
+  text-align: center;
+}
 
 .servicos div>img{
   position: absolute;
@@ -334,7 +338,8 @@ z-index: 2;
 .agendarbtn{ 
   position: absolute;
   display: block;
-  background-color: #BF964B;
+  background-image: linear-gradient(to right,#514B3D,#837342,#BF964B);
+  color: white;
   top: 100%;
   left: 50%;
   transform: translate(-50%,-50%);
