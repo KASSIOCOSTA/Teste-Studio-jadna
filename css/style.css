@@ -329,13 +329,12 @@ z-index: 2;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-
-}
-.dsobrancelha img{
   top: 50%;
   left: 100%;
   transform: translate(-50%,-50%);
+
 }
+
 .agendarbtn{ 
   position: absolute;
   display: block;
