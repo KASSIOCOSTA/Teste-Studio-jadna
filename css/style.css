@@ -351,8 +351,8 @@ z-index: 2;
 }
 .topimg{
   position: absolute;
- width: 150px;
- height: 150px;
+ width: 170px;
+ height: 170px;
  top: -50%;
  left: 80%;
  border: 1px solid black;
