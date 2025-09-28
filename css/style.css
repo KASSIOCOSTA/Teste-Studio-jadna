@@ -356,19 +356,26 @@ z-index: 2;
  height: 170px;
  top: -50%;
  left: 80%;
- border: 1px solid black;
+ border: 2px solid black;
 }
-
+.top-img-make{
+  position: absolute;
+ width: 170px;
+ 
+ top: -50%;
+ left: 80%;
+ border: 2px solid black;
+}
 .rightimg{
   position: absolute;
   width: 150px;
-  height: 150px;
+  
   border-radius: 50%;
   top: 50%;
   left: 100%;
   transform: translate(-50%,-50%);
   z-index: 1;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 footer{
@@ -382,6 +389,7 @@ footer{
   height: 28px;
   padding: 5px;
   border-radius: 30px;
+  box-shadow: 0 20px 7px rgba(0, 0, 0, 0.52);
  
 }
 footer h2>span{
