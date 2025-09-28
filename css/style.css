@@ -288,6 +288,15 @@ z-index: 2;
   background-size: cover;
   background-attachment: fixed;
 }
+#newimg{
+  min-height: 100vh;
+  background-image: url('../img/jadna2-servico.png');
+  background-repeat: no-repeat;
+  background-position:  bottom left;
+  background-size: cover;
+ 
+  background-attachment: fixed;
+}
 
 .servicos h2{
   background-color: rgb(61, 61, 61);
