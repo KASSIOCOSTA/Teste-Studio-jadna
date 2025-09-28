@@ -253,9 +253,7 @@ z-index: 2;
   animation: pulsar 1s infinite linear;
 
 }
-#folha2{
 
-}
 @keyframes pulsar{
   0%,100%{
     transform: scale(1) rotate(220deg);
@@ -324,16 +322,6 @@ z-index: 2;
   text-align: center;
 }
 
-.servicos div>img{
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  top: 50%;
-  left: 100%;
-  transform: translate(-50%,-50%);
-
-}
 
 .agendarbtn{ 
   position: absolute;
@@ -356,4 +344,28 @@ z-index: 2;
   50%{
     transform: scale(1.1) translate(-50%,-50%);
   }
+}
+
+.new{
+  margin-top: 150px;
+}
+.topimg{
+  position: absolute;
+ width: 150px;
+ height: 150px;
+ top: -50%;
+ left: 80%;
+ border: 1px solid black;
+}
+
+.rightimg{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  border: 1px solid black;
 }
