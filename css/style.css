@@ -498,6 +498,7 @@ footer p{
   .sobre-mim,
   .servicos,
   #newimg {
+    background-image: linear-gradient(to left, rgb(59, 59, 59), rgb(87, 87, 87),white, rgb(122, 122, 122));
     background-attachment: scroll;
     background-size: cover;
   }
