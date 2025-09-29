@@ -181,6 +181,7 @@ z-index: 2;
   border-radius: 50px 0 20px 0;
   word-spacing: 2px;
   text-align: center;
+  background-image: linear-gradient(to right,#514B3D,#837342,#BF964B);
 
 }
 .cabecalho{
@@ -189,18 +190,19 @@ z-index: 2;
 
 .sobre-mim p{
   font-family: 'Courier New', Courier, monospace;
-  background-color: #c4bc9998;
+  background-color: #c4bc9951;
   position: absolute;
-  width: 70vw;
-  border: 5px solid #aa8633;
+  width: 85vw;
+  border: 5px dashed #BF964B;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -60%);
   padding: 10px;
   font-size: 1.2em;
-  line-height: 1em;
-  color: #000000;
+  line-height: 1.2em;
+  color: #ffffff;
   border-radius: 30px;
+  
  
   
 }
@@ -246,7 +248,7 @@ z-index: 2;
   width: 80px;
 }
 #folha1{
-  border: 1px solid black;
+ 
   top: 0;
   left: 80%;
   transform: rotate(220deg);
@@ -307,12 +309,15 @@ z-index: 2;
   margin-bottom: 100px;
   z-index: 2;
 }
+.servicos h3{
+text-shadow: 0 0 6px white;
+}
 
 .servicos div{
   position: relative;
-  background-image: url('../img/fundo-cimento-queimado.jpg');
+
   width: 60vw;
-  background-color: aqua;
+  background-color: rgba(63, 63, 63, 0.631);
   border: 2px solid black;
   border-radius: 40px;
   margin-left: 10px;
@@ -330,12 +335,28 @@ z-index: 2;
   margin-bottom: 100px;
   text-align: center;
 }
-
+.valor{
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 1.5em;
+  text-shadow: 
+  1px 1px 0 black,
+  -1px -1px 0 black,
+  -1px 1px 0 black,
+  1px -1px 0 black
+  ;
+}
+.aplicacao-manutencao{
+  display: block;
+ background-image: linear-gradient(to right,#514b3d75,#837342b3,#bf964bb5);
+  padding: 3px;
+  border-radius: 10px;
+}
 
 .agendarbtn{ 
   position: absolute;
   display: block;
-  background-image: linear-gradient(to right,#514B3D,#837342,#BF964B);
+  background-image: linear-gradient(to right,#514b3d,#837342,#BF964B);
   color: white;
   top: 100%;
   left: 50%;
@@ -345,6 +366,7 @@ z-index: 2;
   text-decoration: none;
   animation: btn-pulsar 3s linear infinite;
   font-size: 0.8em;
+  border: 1px solid black;
 }
 @keyframes btn-pulsar {
   0%,100%{
@@ -390,7 +412,21 @@ z-index: 2;
 footer{
   height: 100vh;
   position: relative;
+  background-image: url('../img/pano-branco.jpg');
 }footer h2{
+  margin: 0 auto;
+  text-align: center;
+  background-image: linear-gradient(to right,#514B3D,#837342,#BF964B);
+  width: 200px;
+  height: 28px;
+  padding: 5px;
+  border-radius: 30px;
+  box-shadow: 0 20px 7px rgba(0, 0, 0, 0.52);
+ 
+}
+
+footer h3{
+  color: white;
   margin: 0 auto;
   text-align: center;
   background-image: linear-gradient(to right,#514B3D,#837342,#BF964B);
@@ -411,13 +447,23 @@ footer h2>span{
 }
 footer div{
   
-  width: 70vw;
+  width: 80vw;
   text-align: justify;
   margin: 0 auto;
 }
+footer div{
+  position: relative;
+}
+.flor-roda-pe{
+  position: absolute;
+  width: 100px; 
+  bottom: -40%;
+  transform: rotate(80deg);
+
+}
 footer p{
   background-image: linear-gradient(to right,#514B3D,#837342,#BF964B);
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 20px;
   border-radius: 30px 0;
 }
@@ -430,4 +476,36 @@ footer p{
   border: 2px solid #837342;
   box-sizing: border-box;
   margin: 0 auto;
+}
+
+#forma-de-pagamento{
+  position: absolute;
+  display: block;
+  width: 200px;
+  bottom: 2px;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center
+}
+  
+#forma-de-pagamento img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+}
+
+
+
+@supports not (background-attachment: fixed;){ .sobre-mim{ 
+  background-attachment: scroll;
+  background-size: cover;}
+}
+@supports not (background-attachment: fixed;){ .servicos{ 
+  background-attachment: scroll;
+  background-size: cover;}
+}
+@supports not (background-attachment: fixed;){ #newimg{ 
+  background-attachment: scroll;
+  background-size: cover;}
 }
