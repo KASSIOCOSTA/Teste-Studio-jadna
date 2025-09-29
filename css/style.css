@@ -298,6 +298,7 @@ z-index: 2;
   background-size: cover;
  
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 .servicos h2{
