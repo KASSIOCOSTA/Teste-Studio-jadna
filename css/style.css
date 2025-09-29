@@ -494,18 +494,11 @@ footer p{
   border-radius: 50%;
   
 }
-
-
-
-@supports not (background-attachment: fixed;){ .sobre-mim{ 
-  background-attachment: scroll;
-  background-size: cover;}
-}
-@supports not (background-attachment: fixed;){ .servicos{ 
-  background-attachment: scroll;
-  background-size: cover;}
-}
-@supports not (background-attachment: fixed;){ #newimg{ 
-  background-attachment: scroll;
-  background-size: cover;}
+@supports not (background-attachment: fixed) {
+  .sobre-mim,
+  .servicos,
+  #newimg {
+    background-attachment: scroll;
+    background-size: cover;
+  }
 }
