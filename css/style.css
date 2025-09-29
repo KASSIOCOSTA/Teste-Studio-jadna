@@ -457,8 +457,8 @@ footer div{
 }
 .flor-roda-pe{
   position: absolute;
-  width: 100px; 
-  bottom: -40%;
+  width: 80px; 
+  bottom: -110px;
   transform: rotate(80deg);
 
 }
@@ -496,10 +496,16 @@ footer p{
   
 }
 @supports not (background-attachment: fixed) {
-  .sobre-mim,
   .servicos,
   #newimg {
     background-image: linear-gradient(to left, rgb(59, 59, 59), rgb(87, 87, 87),white, rgb(122, 122, 122));
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
+
+@supports not (background-attachment: fixed) {
+  .sobre-mim{
     background-attachment: scroll;
     background-size: cover;
   }
