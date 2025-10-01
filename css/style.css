@@ -414,7 +414,11 @@ footer{
   height: 100vh;
   position: relative;
   background-image: url('../img/pano-branco.jpg');
-}footer h2{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer h2{
   margin: 0 auto;
   text-align: center;
   background-image: linear-gradient(to right,#514B3D,#837342,#BF964B);
