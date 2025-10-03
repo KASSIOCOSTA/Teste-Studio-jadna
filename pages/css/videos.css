@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    background-color: #d2c7b8 ;
+    min-width: 100vw;
+    min-height: 100vh;
+
+}
+body video{
+    display: block;
+    margin: 0 auto;
+    width: 85vw;
+}
+
+a{
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    text-decoration: none;
+    color: black;
+    animation: mudar-de-cor 4s ease infinite;
+    font-size: 1.2em;
+     text-shadow: 
+    -1px -1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255)
+    ;
+    border: 1px solid black;
+}
+
+@keyframes mudar-de-cor{
+    0% {  background-color: white;  }
+    20%{  background-color: red;  }
+    40%{  background-color: yellow;  }
+    60%{   background-color: blue; }
+    80%{ background-color: orange;   }
+    100%{  background-color: cadetblue; }
+}
